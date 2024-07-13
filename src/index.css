@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    padding: 0px 2px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #030712;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #193660;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
