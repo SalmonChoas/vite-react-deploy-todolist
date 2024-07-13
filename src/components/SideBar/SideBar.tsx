@@ -20,7 +20,7 @@ const SideBar = () => {
         setArrowPosition(position)
     }
 
-    const selectStyle = {bg: 'bg-blue-600', rounded: 'rounded-[30px]', hover_bg: 'hover:bg-blue-400'}
+    const selectStyle = {bg: `bg-blue-600`, rounded: 'rounded-[30px]', hover_bg: 'hover:bg-blue-400'}
 
     return (
         <div className={`grid grid-rows-[auto_auto_1fr_auto] gap-5 bg-black text-white p-3`}>
