@@ -59,7 +59,7 @@ const ListWrapper = () => {
         }))
     }
     const ChangeUncheckedTodosItem = (item: Item) => {
-        setOverdueTodos(UncheckedTodos.map((i: any) => {
+        setUncheckedTodos(UncheckedTodos.map((i: any) => {
             if (i.id === item.id)
                 return item
             else
@@ -67,7 +67,7 @@ const ListWrapper = () => {
         }))
     }
     const ChangeCheckedTodosItem = (item: Item) => {
-        setOverdueTodos(CheckedTodos.map((i: any) => {
+        setCheckedTodos(CheckedTodos.map((i: any) => {
             if (i.id === item.id)
                 return item
             else
