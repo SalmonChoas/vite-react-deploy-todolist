@@ -17,7 +17,7 @@ type GlobalContent = {
     OpenChangePage(item: Item, parent: string): void 
 }
 export const ChangePageSwitch = createContext<GlobalContent>({
-    OpenChangePage: (item: Item, parent: string) => null
+    OpenChangePage: () => null
 })
 
 let targetTodos: string;
