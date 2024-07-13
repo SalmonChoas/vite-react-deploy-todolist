@@ -39,7 +39,7 @@ const SideBar = () => {
 
                 <div>
 
-                    <Link to='/'>
+                    <Link to='/vite-react-deploy-todolist/'>
                         <SideBarItem handleClicked={() => { onNavItemClicked('[8px]') }} icon={<IoIosHome size="40" />} name='Home' isOpen={isOpen} 
                         style={arrowPosition === '[8px]' ? selectStyle : {}}/>
                     

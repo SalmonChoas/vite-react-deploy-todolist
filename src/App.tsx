@@ -21,7 +21,7 @@ function App() {
           <SideBar />
 
           <Routes >
-            <Route path="/" element={<Home />}/>
+            <Route path="/vite-react-deploy-todolist/" element={<Home />}/>
             <Route path="/List" element={<ListWrapper />}/>
             <Route path='/Calendar' element={<Calendar />}/>
           </Routes>
