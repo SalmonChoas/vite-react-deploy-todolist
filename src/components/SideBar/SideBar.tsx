@@ -47,14 +47,14 @@ const SideBar = () => {
                 </div>
 
                 <div>
-                    <Link to="/List">
+                    <Link to="/vite-react-deploy-todolist/List">
                         <SideBarItem handleClicked={() => { onNavItemClicked('[100px]') }} icon={<MdOutlineTask size="40" />} name='Task' isOpen={isOpen} 
                         style={arrowPosition === '[100px]' ? selectStyle : {}}/>
                     
                     </Link>
                 </div>
                 <div>
-                    <Link to="/Calendar">
+                    <Link to="/vite-react-deploy-todolist/Calendar">
                         <SideBarItem handleClicked={() => { onNavItemClicked('[192px]') }} icon={<IoIosCalendar size="40" />} name='Calendar' isOpen={isOpen} 
                         style={arrowPosition === '[192px]' ? selectStyle : {}}/>
                     </Link>
