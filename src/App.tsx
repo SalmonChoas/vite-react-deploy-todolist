@@ -22,8 +22,8 @@ function App() {
 
           <Routes >
             <Route path="/vite-react-deploy-todolist/" element={<Home />}/>
-            <Route path="/List" element={<ListWrapper />}/>
-            <Route path='/Calendar' element={<Calendar />}/>
+            <Route path="/vite-react-deploy-todolist/List" element={<ListWrapper />}/>
+            <Route path='/vite-react-deploy-todolist/Calendar' element={<Calendar />}/>
           </Routes>
           {/* <ListWrapper /> */}
         </div>
